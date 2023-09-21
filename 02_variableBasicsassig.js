@@ -33,7 +33,7 @@ console.log('===== DIFFERENCE BETWEEN UNDEFIEND & NULL =====');
 console.log('');
 console.log('================== UNDEFIEND ==================');
 console.log('');
-console.log('Undefiend ==> Undefiend means a variable has been declared bur the value is nat assigned to variable this types of outputa are callwd as undefiend.');
+console.log('Undefiend ==> Undefiend means a variable has been declared bur the value is nat assigned to variable this types of output are called as undefiend.');
 console.log('for Example ==>');
 console.log('var salary;');
 console.log('console.log(salary);');
