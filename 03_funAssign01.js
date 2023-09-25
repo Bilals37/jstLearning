@@ -23,13 +23,14 @@ function swapvalues(arg1,arg2){
 }
 swapvalues('Virat', 'Anushka')
 swapvalues(1000,2000)
+
+console.log('================================================');
+console.log('==>4) Function with 3 parameters to log the addition.');
 function addThreevalues(arg1, arg2, arg3){
     var result = arg1,arg2,arg3;
     var result = arg1+arg2+arg3;
     return result;
 }
-console.log('================================================');
-console.log('==>4) Function with 3 parameters to log the addition.');
 var message=addThreevalues('Hello', ' Good', ' Morning')
 var addition= addThreevalues(10.23,600,40);
 console.log(message,", The addition of three Values is:", addition);
