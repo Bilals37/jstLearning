@@ -16,6 +16,7 @@ function stringHandsOn() {
     console.log(' ');
     var words = strSpaceRm.split(" ");
     console.log(`(06==>) Total words in Trimmed string is: ${words.length}.`);
+    console.log(words);
     console.log(' ');
     var indexOfG = strSpaceRm.search("good");
     console.log(`(07==>) Index of "good" in the Trimmed string is: ${indexOfG}.`);
