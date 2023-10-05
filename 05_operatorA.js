@@ -7,6 +7,7 @@ function squareOfWordLength(word) {
     console.log(`length of string is = ${length}`);
     console.log(`The square of the length of "${word}" is ${square}`);
     console.log(`--------------------------------------------------`);
+    return square
 }
 
 squareOfWordLength("JavaScript");
