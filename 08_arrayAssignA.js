@@ -36,3 +36,6 @@ console.log(" ");
 console.log("select last 3 element and log on console: Use the length property");
 const lastThree= fruits.slice(-3);
 console.log(lastThree);
+
+console.table(fruits)
+
