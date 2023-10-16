@@ -29,8 +29,8 @@ for (const element of friends) {
     console.log(element);
   }
 
-  var str='Codemind Technology';
-  var reverse ="";
+  let str='Codemind Technology';
+  let reverse ="";
   for (let index = str.length-1; index >= 0; index--) {
       if (str.charAt(index)== " ") {
           break;
