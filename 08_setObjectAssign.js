@@ -16,6 +16,8 @@ const hdfcBank = new Bank("HDFC Bank", "Shrirampur", 45896325412589, "HDFC000966
 const punjabBank = new Bank("Punjab National Bank", "Newasa", 854693214789, "PUNB0123456", 0.12); // 12%
 
 const banks = new Set([axisBank, sbiBank, iciciBank, kotakBank, hdfcBank, punjabBank]);
+log
+
 
 for (const bank of banks) {
     console.log(`Bank name==> ${bank.bankName}, Location==> ${bank.location}`);
