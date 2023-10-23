@@ -8,4 +8,4 @@ function show(greet){
     console.log(greet);
     console.log(this.name, this.age);
 }
-show.call(person, 'Good Morning');
+show.call(person, 'Good Morning'); 
