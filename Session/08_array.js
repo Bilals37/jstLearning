@@ -92,7 +92,9 @@ arrayNumber.splice(2, 1, 500);
 console.log(arrayNumber);
 
 console.log(`Insert an element 700 at index 3 by replacing 2 elements`);
-
+var arrayNumber = [22, 11, 44, 55, 77, 33];
+arrayNumber.splice(3,1,700)
+console.log(arrayNumber);
 
 
 console.log(`for in loop`);
@@ -101,3 +103,10 @@ for (const index in arrayNumber) {
     const element=arrayNumber[index];
     console.log(`Index: ${index}, value: ${element}`);
 }
+
+var arrayNumber = [22, 11, 44, 55, 77, 33];
+console.log("Includes");
+const arrayinc=arrayNumber.includes(22)
+console.log(arrayinc);
+const arrayin=arrayNumber.includes(67)
+console.log(arrayin);

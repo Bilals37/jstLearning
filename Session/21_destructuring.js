@@ -19,3 +19,4 @@ const array = ['Mona', 'Sona', 'Tona', 'Bawa'];
 let [element1, element2, element3, element4, element5='Khona']= array;
 
 console.log(element1, element2, element3, element4, element5);
+

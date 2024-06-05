@@ -4,7 +4,7 @@ console.log(`Reverse the array`);
 console.log(reverseArray);
 
 const sortArray= arrayRollNum.sort()
-console.log(`sort() method as it is without any custom sorting logic`);
+console.log(`sorted Array as it is without any custom sorting logic`);
 console.log(sortArray);
 
 console.log(`The array in ascending order, by writing custom logic`);

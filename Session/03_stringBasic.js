@@ -10,7 +10,7 @@ console.log("Character at index 0 is: ", charAt0);
 var charAt5 = greet.charAt(5);
 console.log("Character at index 5 is: ", charAt5);
 
-var lastIndexChar = greet.charAt(greet.length-3);
+var lastIndexChar = greet.charAt(greet.length - 3);
 console.log('Last index char is: ', lastIndexChar);
 
 console.log("========== concatenation =============== ");
@@ -23,15 +23,15 @@ console.log("========== indexOf =============== ");
 var indexOfM = greet.indexOf('M');
 console.log('Index of M is: ', indexOfM);
 
- console.log(greet.indexOf('nin'));
+console.log(greet.indexOf('nin'));
 
- console.log('Index of char z:',greet.indexOf('z'));
+console.log('Index of char z:', greet.indexOf('z'));
 
- console.log('Index of char D:',greet.indexOf('D'));
- console.log('Index of char o is:', greet.indexOf('o'));
+console.log('Index of char D:', greet.indexOf('D'));
+console.log('Index of char o is:', greet.indexOf('o'));
 
- console.log("========== replace =============== ");
-var result =greet.replace('Morning', "Afternoon");
+console.log("========== replace =============== ");
+var result = greet.replace('Morning', "Afternoon");
 console.log(result);
 var result = greet.replace(' ', "-");
 console.log(result);
@@ -45,5 +45,5 @@ console.log("Length before trim : ", str.length);
 var result = str.trim();
 console.log("Length after trim: ", result.length);
 var lengthAfterTrim = result.length;
-var result = lengthBeforeTrim - lengthAfterTrim;
+var result = lenagthBeforeTrim - lengthAfterTrim;
 console.log('Removed extra spaces are: ', result);
